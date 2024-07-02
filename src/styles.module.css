@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.textarea {
+  width: 45%;
+  height: 90vh;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+pre {
+  width: 45%;
+  height: 90vh;
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.lineNumber {
+  display: inline-block;
+  width: 2em;
+  user-select: none;
+  opacity: 0.5;
+}
